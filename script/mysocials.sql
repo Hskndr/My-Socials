@@ -55,6 +55,7 @@ CREATE TABLE public.users
   address character varying(128),
   phone character varying(20),
   id_country integer,
+  us_pw character varying(100),
   CONSTRAINT pk_users_username PRIMARY KEY (user_name),
   CONSTRAINT fk_users_id_country FOREIGN KEY (id_country)
       REFERENCES public.country (id_country) MATCH SIMPLE

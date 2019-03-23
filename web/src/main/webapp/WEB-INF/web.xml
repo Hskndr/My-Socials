@@ -7,7 +7,7 @@
 
     <context-param>
         <param-name>DBUSER</param-name>
-        <param-value>postgre</param-value>
+        <param-value>postgres</param-value>
     </context-param>
 
     <context-param>
